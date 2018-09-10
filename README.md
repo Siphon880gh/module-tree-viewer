@@ -54,3 +54,11 @@ So the node_modules directory is one level up:<br>
 
 Finally, export your NODE_PATH to configure node correctly. In my case, it is:<br>
 export NODE_PATH='/usr/local/lib/node_modules/'
+
+
+Example
+========
+@test-php/index.php<br>
+- test-php/plugin.php  ( main plugin)<br>
+-- test-php/child_plugin.php<br>
+-- test-php/child_plugin.php
