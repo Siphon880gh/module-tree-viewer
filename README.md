@@ -21,15 +21,15 @@ Hints
 
 PHP
 ----
-node run.js --entry test-php/index.php --pattern "include\\(.(.\*).\\)" --comment "\/\/\s?(.\*)
+node module-tree-viewer --entry test-php/index.php --pattern "include\\(.(.\*).\\)" --comment "\/\/\s?(.\*)
 
 Node JS
 --------
-node run.js --entry test-nodejs/index.php --pattern "require\\(.(.\*).\\)" --comment "\/\/\s?(.\*)"
+node module-tree-viewer --entry test-nodejs/index.php --pattern "require\\(.(.\*).\\)" --comment "\/\/\s?(.\*)"
 
 ES
 ---
-node run.js --entry test-es/index.php --pattern "from .(.\*)." --comment "\/\/\s?(.\*)"
+node module-tree-viewer --entry test-es/index.php --pattern "from .(.\*)." --comment "\/\/\s?(.\*)"
 
 
 Troubleshooting: Does not run?
