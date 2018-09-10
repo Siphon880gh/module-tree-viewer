@@ -53,4 +53,4 @@ So the node_modules directory is one level up:<br>
 /usr/local/lib/node_modules
 
 Finally, export your NODE_PATH to configure node correctly. In my case, it is:<br>
-export NODE_PATH=’/usr/local/lib/node_modules/’
+export NODE_PATH='/usr/local/lib/node_modules/'
