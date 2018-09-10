@@ -59,6 +59,6 @@ export NODE_PATH='/usr/local/lib/node_modules/'
 Example
 ========
 @test-php/index.php<br>
-- test-php/plugin.php  ( main plugin)<br>
+\- test-php/plugin.php  ( main plugin)<br>
 -- test-php/child_plugin.php<br>
 -- test-php/child_plugin.php
