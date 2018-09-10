@@ -30,3 +30,27 @@ node run.js --entry test-nodejs/index.php --pattern "require\\(.(.*).\\)" --comm
 ES
 ---
 node run.js --entry test-es/index.php --pattern "from .(.*)." --comment "\/\/\s?(.*)"
+
+
+Troubleshooting: Does not run?
+===============================
+Try installing globally
+sudo npm install -g module-tree-viewer
+
+Then testing with
+node module-tree-viewer --help
+
+If this fails, then most likely your npm is not setup correctly. See if $NODE_PATH is empty:
+echo $NODE_PATH
+
+Then find out where your node_modules is by finding the directory of npm
+npm which
+
+For example, that command shows my npm directory is
+/usr/local/lib/node_modules/npm
+
+So the node_modules directory is one level up:
+/usr/local/lib/node_modules
+
+Finally, export your NODE_PATH to configure node correctly. In my case, it is:
+export NODE_PATH=’/usr/local/lib/node_modules/’

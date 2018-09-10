@@ -7,5 +7,9 @@
     "minimist": "^1.2.0"
   },
   "author": "Weng Fei Fung",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siphon880gh/module-tree-viewer"
+  },
   "license": "MIT"
 }

@@ -38,7 +38,6 @@ node run.js --entry test-nodejs/index.php --pattern "require\\(.(.*).\\)" --comm
 ES
 ---
 node run.js --entry test-es/index.php --pattern "from .(.*)." --comment "\/\/\s?(.*)"
-
 `);
 }; // if help mode
 
