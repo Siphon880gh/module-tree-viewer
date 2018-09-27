@@ -29,15 +29,15 @@ Hints
 
 PHP
 ----
-tree-viewer --entry test-php/index.php --pattern "include\\(.(.\*).\\)" --comment "\/\/\s?(.\*)
+module-tree-viewer --entry test-php/index.php --pattern "include\\(.(.\*).\\)" --comment "\/\/\s?(.\*)
 
 Node JS
 --------
-tree-viewer --entry test-nodejs/index.php --pattern "require\\(.(.\*).\\)" --comment "\/\/\s?(.\*)"
+module-tree-viewer --entry test-nodejs/index.php --pattern "require\\(.(.\*).\\)" --comment "\/\/\s?(.\*)"
 
 ES
 ---
-tree-viewer --entry test-es/index.php --pattern "from .(.\*)." --comment "\/\/\s?(.\*)"
+module-tree-viewer --entry test-es/index.php --pattern "from .(.\*)." --comment "\/\/\s?(.\*)"
 
 
 Troubleshooting: Does not run?
@@ -46,7 +46,7 @@ Try installing globally<br>
 sudo npm install -g module-tree-viewer
 
 Then testing with<br>
-tree-viewer --help
+module-tree-viewer --help
 
 If this fails, then most likely your npm is not setup correctly. See if $NODE_PATH is empty:<br>
 echo $NODE_PATH
