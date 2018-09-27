@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const minimist = require("minimist");
 const path = require("path");
 const fs = require("fs");

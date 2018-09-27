@@ -1,6 +1,6 @@
 {
   "name": "module-tree-viewer",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Lists a tree of module dependencies for any framework or language: PHP, NodeJS, ES to name a few. Just provide the entry point file and the regular expression to match for the filename on lines that loads dependent modules. If you provide regular expression for comments, you could add description comments on the same lines as the dependencies being loaded, and the module tree would show descriptions next to each module. eg. require(\"./dependency\"); // This dependency makes the plugin possible.",
   "main": "run.js",
   "dependencies": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Siphon880gh/module-tree-viewer"
+  },
+  "bin": {
+    "tree-viewer": "./run.js"
   },
   "license": "MIT"
 }
