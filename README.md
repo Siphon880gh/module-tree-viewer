@@ -2,10 +2,9 @@ Tree module
 =============
 By Weng Fei Fung
 
-Lists a tree of module dependencies for any framework or language: PHP, NodeJS, ES to name a few. Just provide the entry point file and the regular expression to match for the filename on lines that loads dependent modules. 
+Lets you figure out the structure of your app by showing a tree of module dependencies. This works for any programming language because with regular expression you can look for any tokens, for example: require (nodeJS), import (ES6), include (PHP). Just provide the entry point file and the regular expression to match the module filenames in lines recursively. Regular expression examples for different languages are in the ReadMe.
 
-If you provide regular expression for comments, you could add description comments on the same lines as the dependencies being loaded, and the module tree would show descriptions next to each module.
-eg. require("./dependency"); // This dependency makes the plugin possible.
+You can also match for a descriptive comment on the same line of the module. Then the tree would show descriptions next to each module.
 
 Mandatory:<br>
 --entry fileNameHere<br>
